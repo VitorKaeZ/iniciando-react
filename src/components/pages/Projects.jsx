@@ -24,7 +24,7 @@ function Projects(){
         setTimeout(
             () => {
 
-                fetch('http://localhost:5000/api/projects', {
+                fetch('https://react-json-server0.herokuapp.com/api/projects', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
